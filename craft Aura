@@ -1066,23 +1066,4 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_A
 })
 
 
-local DunTab = Window:MakeTab({
-	Name = "Coins",--nombre de sección de izquierda
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = NunTab:AddSection({
-	Name = "free coins (wait every 3 seconds or spam it)" --nombre de la sección 
-})
-
-
-DusTab:AddButton({
-	Name = "100 coins",
-	Callback = function()
-        local args = {
-    [1] = 100
-}
-
-
 OrionLib:Init()
