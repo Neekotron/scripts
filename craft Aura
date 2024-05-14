@@ -1066,4 +1066,31 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_A
 })
 
 
+local DusTab = Window:MakeTab({
+	Name = "Coins",--nombre de sección de izquierda
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = DusTab:AddSection({
+	Name = "wait every 3 seconds or just spam it" --nombre de la sección 
+})
+
+
+--botones DusTab
+
+
+DusTab:AddButton({
+	Name = "100 Coins",
+	Callback = function()
+       	local args = {
+    [1] = 100
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Duplicate"):FireServer(unpack(args))
+
+  	end    
+})
+
+
 OrionLib:Init()
