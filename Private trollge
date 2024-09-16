@@ -221,7 +221,7 @@ wait(TeleportToChestsDelay.Text)
 end
 end
 for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
-if v.Name == "WoodenCrate" or v.Name == "Banknote" then
+if v.Name == "Chest_p" or v.Name == "DarkChest_p" then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
 Part1.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3.5,0)
 Part2.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-5.5,2,0)
@@ -317,7 +317,7 @@ fireproximityprompt(v.ProximityPrompt)
 end
 end
 for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
-if v.Name == "chest_p" or v.Name == "Darkchest_p" then
+if v.Name == "Chest_p" or v.Name == "DarkChest_p" then
 fireproximityprompt(v.ProximityPrompt)
 end
 end
