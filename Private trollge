@@ -547,12 +547,12 @@ AutoOpenAllChests.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 _G.OpenAllChests = true
 while _G.OpenAllChests == true do wait(1)
 for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
-		if v.Name == "Chest" or v.Name == "Dark Chest" or v.Name == "Light Chest" or v.Name == "Desert Chest" or v.Name == "Ocean Chest" or v.Name == "Heavenly Chest" or v.Name == "Universe Chest" then
+		if v.Name == "Chest" or v.Name == "Dark Chest" or v.Name == "Light Chest" or v.Name == "Desert Chest" or v.Name == "Ocean Chest" or v.Name == "Heavenly Chest" or v.Name == "Universe Chest" or v.Name == "Acid Chest" or v.Name == "Darkness Chest" or v.Name == "Earth Chest" or v.Name == "Unknown Chest" or v.Name == "??? Chest" or v.Name == "WRATH CHEST" or v.Name == "RADIOACTIVE Chest" then
 			v.Parent = game.Players.LocalPlayer.Character
 			end
 end
 for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-		if v.Name == "Chest" or v.Name == "Dark Chest" or v.Name == "Light Chest" or v.Name == "Desert Chest" or v.Name == "Ocean Chest" or v.Name == "Heavenly Chest" or v.Name == "Universe Chest" or v.Name == "Acid Chest" or v.Name == "Darkness Chest" or v.Name == "Earth Chest" or v.Name == "Unknown Chest" then
+		if v.Name == "Chest" or v.Name == "Dark Chest" or v.Name == "Light Chest" or v.Name == "Desert Chest" or v.Name == "Ocean Chest" or v.Name == "Heavenly Chest" or v.Name == "Universe Chest" or v.Name == "Acid Chest" or v.Name == "Darkness Chest" or v.Name == "Earth Chest" or v.Name == "Unknown Chest" or v.Name == "??? Chest" or v.Name == "WRATH CHEST" or v.Name == "RADIOACTIVE Chest" then
 			v:Activate()
 			end
 end
@@ -586,7 +586,7 @@ DeleteUselessItems.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 _G.Delete = true
 while _G.Delete == true do wait(1)
 for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
-		if v.Name == "Oil Cup" or v.Name == "Blood Cup" or v.Name == "Acid Cup" or v.Name == "Antique Cup" or v.Name == "Ocean Cup" or v.Name == "Darkness Cup" or v.Name == "Avacado" or v.Name == "War Blood" or v.Name == "Unknown Eye" or v.Name == "Cursed Spirit" or v.Name == "Cursed Katana" or v.Name == "Toji Sword" or v.Name == "Revenge" or v.Name == "Light Cup" or v.Name == "Meme Cup" or v.Name == "Universe Cup" or v.Name == "Inverted Spear Of Heaven" or v.Name == "The Earth" or v.Name == "Love Cup" then
+		if v.Name == "Oil Cup" or v.Name == "Blood Cup" or v.Name == "Acid Cup" or v.Name == "Antique Cup" or v.Name == "Ocean Cup" or v.Name == "Darkness Cup" or v.Name == "Avacado" or v.Name == "War Blood" or v.Name == "Unknown Eye" or v.Name == "Cursed Spirit" or v.Name == "Cursed Katana" or v.Name == "Toji Sword" or v.Name == "Revenge" or v.Name == "Light Cup" or v.Name == "Meme Cup" or v.Name == "Universe Cup" or v.Name == "Inverted Spear Of Heaven" or v.Name == "The Earth" or v.Name == "Love Cup" or v.Name == "World Eater Cup" or v.Name == "Wrath Cup" or v.Name == "Radioactive Cup" then
 			v:Destroy()
 			end
 end
