@@ -27,7 +27,7 @@ local TeleportToChestsDelay = Instance.new("TextBox")
 local AutoCollectChests = Instance.new("TextButton")
 local AutoCollectSetting = Instance.new("TextButton")
 local AutoCollectDelay = Instance.new("TextBox")
-local GotoShop = Instance.new("TextButton")
+local KillNpcs = Instance.new("TextButton")
 local Fix = Instance.new("TextButton")
 local Next = Instance.new("TextButton")
 local Back = Instance.new("TextButton")
@@ -373,21 +373,27 @@ AutoCollectDelay.BackgroundTransparency = .5
 AutoCollectDelay.PlaceholderText = "Collect Delay"
 AutoCollectDelay.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
 
-GotoShop.Name = "GotoShop"
-GotoShop.Parent = Frame2
-GotoShop.Size = UDim2.new(0, 125, 0, 25)
-GotoShop.Position = UDim2.new(0, 12.5, 0, 87.5)
-GotoShop.Text = "Teleport To Secret Shop"
-GotoShop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-GotoShop.BorderColor3 = Color3.fromRGB(255, 255, 255)
-GotoShop.BorderSizePixel = 2
-GotoShop.TextColor3 = Color3.fromRGB(255, 255, 255)
-GotoShop.TextScaled = true
-GotoShop.TextSize = 20
-GotoShop.Visible = true
-GotoShop.BackgroundTransparency = .5
-GotoShop.MouseButton1Up:Connect(function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1245, -52, 538)
+KillNpcs.Name = "KillNpcs"
+KillNpcs.Parent = Frame2
+KillNpcs.Size = UDim2.new(0, 125, 0, 25)
+KillNpcs.Position = UDim2.new(0, 12.5, 0, 87.5)
+KillNpcs.Text = "Kill every npc"
+KillNpcs.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KillNpcs.BorderColor3 = Color3.fromRGB(255, 255, 255)
+KillNpcs.BorderSizePixel = 2
+KillNpcs.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillNpcs.TextScaled = true
+KillNpcs.TextSize = 20
+KillNpcs.Visible = true
+KillNpcs.BackgroundTransparency = .5
+KillNpcs.MouseButton1Up:Connect(function()
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
+for i,d in pairs(game.Workspace:GetDescendants()) do
+    if d.ClassName == 'Humanoid' and d.Parent.Name ~= game.Players.LocalPlayer.Name then
+        d.Health = 0
+    end
+end
 end)
 
 Fix.Name = "Fix"
@@ -461,7 +467,7 @@ if Page.Text == "1" then
 Page.Text = "2"
 Back.Visible = true
 Fix.Visible = false
-GotoShop.Visible = false
+KillNpcs.Visible = false
 AutoCollectChests.Visible = false
 TeleportToChests.Visible = false
 DeleteUselessItems.Visible = true
@@ -501,7 +507,7 @@ if Page.Text == "2" then
 Page.Text = "1"
 Back.Visible = false
 Fix.Visible = true
-GotoShop.Visible = true
+KillNpcs.Visible = true
 AutoCollectChests.Visible = true
 TeleportToChests.Visible = true
 DeleteUselessItems.Visible = false
@@ -514,7 +520,7 @@ Page.Text = "2"
 Page.Position = UDim2.new(0, 96, 0, 160)
 Next.Visible = true
 Fix.Visible = false
-GotoShop.Visible = false
+KillNpcs.Visible = false
 AutoCollectChests.Visible = false
 TeleportToChests.Visible = false
 AutoOpenAllChests.Visible = true
