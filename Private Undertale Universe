@@ -553,12 +553,12 @@ AutoOpenAllChests.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 _G.OpenAllChests = true
 while _G.OpenAllChests == true do wait(1)
 for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
-		if v.Name == "Soul" or v.Name == "Regular Capsule" or v.Name == "Better Capsule" or v.Name == "Mutated Soul" or v.Name == "Corrupted Soul" or v.Name == "Heavenly Chest" or v.Name == "Universe Chest" or v.Name == "Acid Chest" or v.Name == "Darkness Chest" or v.Name == "Earth Chest" or v.Name == "Unknown Chest" or v.Name == "??? Chest" or v.Name == "WRATH CHEST" or v.Name == "RADIOACTIVE Chest" then
+		if v.Name == "Soul" or v.Name == "Regular Capsule" or v.Name == "Better Capsule" or v.Name == "Mutated Soul" or v.Name == "Corrupted Soul" or v.Name == "Malsoul" or v.Name == "Universe Chest" or v.Name == "Acid Chest" or v.Name == "Darkness Chest" or v.Name == "Earth Chest" or v.Name == "Unknown Chest" or v.Name == "??? Chest" or v.Name == "WRATH CHEST" or v.Name == "RADIOACTIVE Chest" then
 			v.Parent = game.Players.LocalPlayer.Character
 			end
 end
 for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-		if v.Name == "Soul" or v.Name == "Regular Capsule" or v.Name == "Better Capsule" or v.Name == "Mutated Soul" or v.Name == "Corrupted Soul" or v.Name == "Heavenly Chest" or v.Name == "Universe Chest" or v.Name == "Acid Chest" or v.Name == "Darkness Chest" or v.Name == "Earth Chest" or v.Name == "Unknown Chest" or v.Name == "??? Chest" or v.Name == "WRATH CHEST" or v.Name == "RADIOACTIVE Chest" then
+		if v.Name == "Soul" or v.Name == "Regular Capsule" or v.Name == "Better Capsule" or v.Name == "Mutated Soul" or v.Name == "Corrupted Soul" or v.Name == "Malsoul" or v.Name == "Universe Chest" or v.Name == "Acid Chest" or v.Name == "Darkness Chest" or v.Name == "Earth Chest" or v.Name == "Unknown Chest" or v.Name == "??? Chest" or v.Name == "WRATH CHEST" or v.Name == "RADIOACTIVE Chest" then
 			v:Activate()
 			end
 end
