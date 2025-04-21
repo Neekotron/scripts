@@ -208,7 +208,7 @@ BV.Velocity = game.Workspace.CurrentCamera.CFrame.LookVector * 0.0000000001
 
 _G.Teleport = true
 while _G.Teleport == true do wait(TeleportToChestsDelay.Text)
-for i,v in pairs(game:GetService("Workspace").cups:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Cups:GetChildren()) do
 if v:IsA("BasePart") then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
 Part1.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3.5,0)
@@ -311,7 +311,7 @@ AutoCollectChests.Text = "Auto Collect Chests (On)"
 AutoCollectChests.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 _G.Collect = true
 while _G.Collect == true do wait(AutoCollectDelay.Text)
-for i,v in pairs(game:GetService("Workspace").cups:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Cups:GetChildren()) do
 if v:IsA("BasePart") then
 fireproximityprompt(v.ProximityPrompt)
 end
