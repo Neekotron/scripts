@@ -66,7 +66,7 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
 
 AddContent("TextButton", "HardMode$4500 ex", [[
 local args = {
-    [1] = "Sans",
+    [1] = "Hard Mode Sans",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
