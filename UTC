@@ -20,6 +20,8 @@ local args = {
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
 ]])
 
 AddContent("TextButton", "3RR0RD4ST $777 ex", [[
@@ -27,6 +29,8 @@ local args = {
     [1] = "3RR0RD4ST",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 ]])
 
@@ -36,6 +40,8 @@ local args = {
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
 ]])
 
 AddContent("TextButton", "Fatal Error Sans $1200", [[
@@ -43,6 +49,8 @@ local args = {
     [1] = "Fatal Error Sans",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 ]])
 
@@ -52,6 +60,8 @@ local args = {
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
 ]])
 
 AddContent("TextButton", "X-Gaster! $2450 ex", [[
@@ -59,6 +69,8 @@ local args = {
     [1] = "X-Gaster!",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 ]])
 
@@ -68,6 +80,8 @@ local args = {
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
 ]])
 
 AddContent("TextButton", "Text Here", [[
@@ -75,5 +89,7 @@ local args = {
     [1] = "",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 ]])
