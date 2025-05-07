@@ -34,9 +34,9 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
 
 ]])
 
-AddContent("TextButton", "Epic Sans $900", [[
+AddContent("TextButton", "Chicken Insanity $800 ex", [[
 local args = {
-    [1] = "Epic Sans",
+    [1] = "Chicken Insanity",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
@@ -54,9 +54,9 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
 
 ]])
 
-AddContent("TextButton", "GaStEER $1200", [[
+AddContent("TextButton", "X-Gaster! $2450", [[
 local args = {
-    [1] = "GaStEER",
+    [1] = "X-Gaster!",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
@@ -64,9 +64,9 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
 
 ]])
 
-AddContent("TextButton", "X-Gaster! $2450 ex", [[
+AddContent("TextButton", "HardMode$4500 ex", [[
 local args = {
-    [1] = "X-Gaster!",
+    [1] = "HardMode Sans",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
@@ -84,9 +84,9 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
 
 ]])
 
-AddContent("TextButton", "Text Here", [[
+AddContent("TextButton", "Error 404 $12500 ex", [[
 local args = {
-    [1] = "",
+    [1] = "Error 404",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
 }
 
