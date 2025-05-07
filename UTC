@@ -1,0 +1,79 @@
+---Ghost Gui UI Library
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/UI-Library/refs/heads/main/Ghost%20Gui'))()
+game.CoreGui.GhostGui.MainFrame.Title.Text = "UT Troops"
+---
+ 
+ 
+AddContent("TextButton", "Temmie $200", [[
+local args = {
+    [1] = "Temmie",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+ 
+ AddContent("TextButton", "Frisk $300", [[
+local args = {
+    [1] = "Frisk",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
+
+AddContent("TextButton", "3RR0RD4ST $777 ex", [[
+local args = {
+    [1] = "3RR0RD4ST",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
+
+AddContent("TextButton", "Epic Sans $900", [[
+local args = {
+    [1] = "Epic Sans",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
+
+AddContent("TextButton", "Fatal Error Sans $1200", [[
+local args = {
+    [1] = "Fatal Error Sans",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
+
+AddContent("TextButton", "GaStEER $1200", [[
+local args = {
+    [1] = "GaStEER",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
+
+AddContent("TextButton", "X-Gaster! $2450 ex", [[
+local args = {
+    [1] = "X-Gaster!",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
+
+AddContent("TextButton", "Dust $6666 ex", [[
+local args = {
+    [1] = "DustDust..?",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
+
+AddContent("TextButton", "Text Here", [[
+local args = {
+    [1] = "",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+]])
