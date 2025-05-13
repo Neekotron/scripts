@@ -22,11 +22,43 @@ game:GetService("ReplicatedStorage").PlayerRemoteEvents.Frisk.giveBuff:FireServe
 
 ]])
 
-AddContent("TextButton", "sans morph", [[
+AddContent("TextButton", "God cuphead", [[
 local args = {
-    [1] = "sans"
+    [1] = true
 }
 
-game:GetService("ReplicatedStorage").Remotes.inSelection.characterSelectionControlEvent:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Cuphead.CupheadSuperArt:FireServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "Ungod", [[
+local args = {
+    [1] = false
+}
+
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Cuphead.CupheadSuperArt:FireServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "Anti Monika", [[
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.MonikaSpringEffect:FireServer()
+
+]])
+
+AddContent("TextButton", "Fire on", [[
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.eggman.flameThrower:FireServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "Fire Off", [[
+local args = {
+    [1] = "firestop"
+}
+
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.eggman.flameThrower:FireServer(unpack(args))
 
 ]])
