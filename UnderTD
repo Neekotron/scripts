@@ -1,0 +1,32 @@
+---Ghost Gui UI Library
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/UI-Library/refs/heads/main/Ghost%20Gui'))()
+game.CoreGui.GhostGui.MainFrame.Title.Text = "UTTD"
+---
+ 
+ 
+AddContent("TextButton", "Tea frisk", [[
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character
+}
+
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Frisk.seaTea:FireServer(unpack(args))
+
+]])
+ 
+ AddContent("TextButton", "Buff", [[
+local args = {
+    [1] = game:GetService("Players").Neeko_SF.Character
+}
+
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Frisk.giveBuff:FireServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "sans morph", [[
+local args = {
+    [1] = "sans"
+}
+
+game:GetService("ReplicatedStorage").Remotes.inSelection.characterSelectionControlEvent:FireServer(unpack(args))
+
+]])
