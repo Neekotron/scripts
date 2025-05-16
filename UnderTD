@@ -45,20 +45,20 @@ game:GetService("ReplicatedStorage").PlayerRemoteEvents.MonikaSpringEffect:FireS
 
 ]])
 
-AddContent("TextButton", "Chara save", [[
+AddContent("TextButton", "Shadow", [[
 local args = {
-    [1] = "save"
+    [1] = "shadow"
 }
 
-game:GetService("ReplicatedStorage").PlayerRemoteEvents.Chara.save:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.inSelection.characterSelectionControlEvent:FireServer(unpack(args))
 
 ]])
 
-AddContent("TextButton", "Chara load", [[
+AddContent("TextButton", "Vortex", [[
 local args = {
-    [1] = "load"
+    [1] = "vortex"
 }
 
-game:GetService("ReplicatedStorage").PlayerRemoteEvents.Chara.save:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.inSelection.characterSelectionControlEvent:FireServer(unpack(args))
 
 ]])
