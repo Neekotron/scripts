@@ -40,11 +40,6 @@ game:GetService("ReplicatedStorage").PlayerRemoteEvents.Cuphead.CupheadSuperArt:
 
 ]])
 
-AddContent("TextButton", "Anti Monika", [[
-game:GetService("ReplicatedStorage").PlayerRemoteEvents.MonikaSpringEffect:FireServer()
-
-]])
-
 TextBox = AddContent("TextBox","User")
 TextBox:GetPropertyChangedSignal("Text"):Connect(function()
 print(TextBox.Text)
@@ -58,11 +53,6 @@ local args = {
 game:GetService("ReplicatedStorage").PlayerRemoteEvents.Frisk.seaTea:FireServer(unpack(args))
 
 ]])
-
-TextBox = AddContent("TextBox","User")
-TextBox:GetPropertyChangedSignal("Text"):Connect(function()
-print(TextBox.Text)
-end)
 
 AddContent("TextButton", "Buff player", [[
 local args = {
