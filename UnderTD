@@ -45,20 +45,30 @@ game:GetService("ReplicatedStorage").PlayerRemoteEvents.MonikaSpringEffect:FireS
 
 ]])
 
-AddContent("TextButton", "Shadow", [[
+TextBox = AddContent("TextBox","User")
+TextBox:GetPropertyChangedSignal("Text"):Connect(function()
+print(TextBox.Text)
+end)
+
+AddContent("TextButton", "Heal player", [[
 local args = {
-    [1] = "shadow"
+    [1] = game:GetService("Players")[TextBox.Text].Character
 }
 
-game:GetService("ReplicatedStorage").Remotes.inSelection.characterSelectionControlEvent:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Frisk.seaTea:FireServer(unpack(args))
 
 ]])
 
-AddContent("TextButton", "Vortex", [[
+TextBox = AddContent("TextBox","User")
+TextBox:GetPropertyChangedSignal("Text"):Connect(function()
+print(TextBox.Text)
+end)
+
+AddContent("TextButton", "Buff player", [[
 local args = {
-    [1] = "vortex"
+    [1] = game:GetService("Players")[TextBox.Text].Character
 }
 
-game:GetService("ReplicatedStorage").Remotes.inSelection.characterSelectionControlEvent:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Frisk.giveBuff:FireServer(unpack(args))
 
 ]])
