@@ -45,20 +45,20 @@ game:GetService("ReplicatedStorage").PlayerRemoteEvents.MonikaSpringEffect:FireS
 
 ]])
 
-AddContent("TextButton", "Fire on", [[
+AddContent("TextButton", "Chara save", [[
 local args = {
-    [1] = true
+    [1] = "save"
 }
 
-game:GetService("ReplicatedStorage").PlayerRemoteEvents.eggman.flameThrower:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Chara.save:FireServer(unpack(args))
 
 ]])
 
-AddContent("TextButton", "Fire Off", [[
+AddContent("TextButton", "Chara load", [[
 local args = {
-    [1] = "firestop"
+    [1] = "load"
 }
 
-game:GetService("ReplicatedStorage").PlayerRemoteEvents.eggman.flameThrower:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").PlayerRemoteEvents.Chara.save:FireServer(unpack(args))
 
 ]])
