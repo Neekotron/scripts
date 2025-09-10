@@ -208,7 +208,7 @@ BV.Velocity = game.Workspace.CurrentCamera.CFrame.LookVector * 0.0000000001
 
 _G.Teleport = true
 while _G.Teleport == true do wait(TeleportToChestsDelay.Text)
-for i,v in pairs(game:GetService("Workspace").chests:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").CupSpawns:GetChildren()) do
 if v:IsA("BasePart") then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
 Part1.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3.5,0)
@@ -221,7 +221,7 @@ wait(TeleportToChestsDelay.Text)
 end
 end
 for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
-if v.Name == "DarkChest_p" or v.Name == "LightChest_p" then
+if v.Name == "DarkChest_p" or v.Name == "LightChest_p" or v.Name == "Oil" or v.Name == "Blood" then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
 Part1.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3.5,0)
 Part2.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-5.5,2,0)
@@ -311,13 +311,13 @@ AutoCollectChests.Text = "Auto Collect Chests (On)"
 AutoCollectChests.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 _G.Collect = true
 while _G.Collect == true do wait(AutoCollectDelay.Text)
-for i,v in pairs(game:GetService("Workspace").chests:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").CupSpawns:GetChildren()) do
 if v:IsA("BasePart") then
 fireproximityprompt(v.ProximityPrompt)
 end
 end
 for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
-if v.Name == "DarkChest_p" or v.Name == "LightChest_p" then
+if v.Name == "DarkChest_p" or v.Name == "LightChest_p" or v.Name == "Oil" or v.Name == "Blood" then
 fireproximityprompt(v.ProximityPrompt)
 end
 end
