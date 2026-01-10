@@ -137,14 +137,36 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
 
 ]])
 
-TextBox = AddContent("TextBox","Time")
-TextBox:GetPropertyChangedSignal("Text"):Connect(function()
-print(TextBox.Text)
-end)
-
-AddContent("TextButton", "Add Speed", [[
+AddContent("TextButton", "x0", [[
 local args = {
-    [1] = [TextBox.Text]
+    [1] = 0
+}
+
+game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "x5", [[
+local args = {
+    [1] = 5
+}
+
+game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "x10", [[
+local args = {
+    [1] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "x1000", [[
+local args = {
+    [1] = 1000
 }
 
 game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(args))
