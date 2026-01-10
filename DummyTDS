@@ -164,9 +164,9 @@ game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(a
 
 ]])
 
-AddContent("TextButton", "x1000", [[
+AddContent("TextButton", "x20", [[
 local args = {
-    [1] = 1000
+    [1] = 20
 }
 
 game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(args))
