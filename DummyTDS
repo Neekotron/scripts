@@ -1,0 +1,152 @@
+---Ghost Gui UI Library
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/UI-Library/refs/heads/main/Ghost%20Gui'))()
+game.CoreGui.GhostGui.MainFrame.Title.Text = "UT Troops"
+---
+ 
+ 
+ AddContent("TextButton", "Radio Mx", [[
+local args = {
+    [1] = "ScaleDummy",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Radio Dummy 5.0",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
+    [5] = 0
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+ 
+AddContent("TextButton", "BuilderMx", [[
+local args = {
+    [1] = "ScaleDummy",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Builder ScaleDummy 5.0",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
+    [5] = 0
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+ 
+ AddContent("TextButton", "TankMx", [[
+local args = {
+    [1] = "ScaleDummy",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Tank Dummy 5.0",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
+    [5] = 0
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+ 
+AddContent("TextButton", "MortarMx", [[
+local args = {
+    [1] = "ScaleDummy",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Mortar ScaleDummy 5.0",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
+    [5] = 0
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+ 
+ AddContent("TextButton", "MKI Mx", [[
+local args = {
+    [1] = "ScaleDummy",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "MKI Titan Dummy 5.0",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
+    [5] = 0
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "Military Base Mx", [[
+local args = {
+    [1] = "ScaleDummy",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Military Vehicle Base 5.0",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
+    [5] = 0
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+
+AddContent("TextButton", "blockd Mx", [[
+local args = {
+    [1] = "ScaleDummy",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Titan BlockDummy 5.0",
+    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
+    [5] = 0
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+
+]])
+
+TextBox = AddContent("TextBox","Time")
+TextBox:GetPropertyChangedSignal("Text"):Connect(function()
+print(TextBox.Text)
+end)
+
+AddContent("TextButton", "Add Speed", [[
+local args = {
+    [1] = [TextBox.Text]
+}
+
+game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(args))
+
+]])
