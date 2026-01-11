@@ -6,7 +6,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(19.46047019958496, 11.259994506835938, 110.4666748046875) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -21,7 +21,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(21.20532989501953, 11.259908676147461, 100.83538818359375) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -36,7 +36,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(9.476871490478516, 11.27200984954834, 110.41410064697266) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -51,7 +51,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(9.95181655883789, 11.270803451538086, 99.97710418701172) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -66,7 +66,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(10.004657745361328, 8.392853736877441, 89.13888549804688) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -81,7 +81,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(20.632503509521484, 8.345050811767578, 89.10050201416016) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -96,7 +96,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(10.587634086608887, 4.087395668029785, 77.32060241699219) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -111,7 +111,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(21.5166015625, 4.077723979949951, 78.28321838378906) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -126,7 +126,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(21.924484252929688, 4.079500198364258, 67.70924377441406) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -141,7 +141,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(9.389102935791016, 4.3120293617248535, 68.34228515625) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -156,7 +156,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-1.1503666639328003, 4.30100679397583, 68.29209899902344) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -171,7 +171,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-1.2336246967315674, 4.0937628746032715, 77.27753448486328) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -186,7 +186,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-1.8887656927108765, 4.088133811950684, 88.09953308105469) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -201,7 +201,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-12.719316482543945, 4.310483455657959, 69.59326934814453) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -216,7 +216,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-12.762465476989746, 4.082809925079346, 78.39714050292969) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -231,7 +231,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-13.314879417419434, 4.093421936035156, 87.88407135009766) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -246,7 +246,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(21.69194221496582, 4.091775894165039, 58.30010223388672) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -261,7 +261,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(9.980683326721191, 4.087871074676514, 57.8209342956543) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -276,7 +276,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-1.549230933189392, 4.078454494476318, 58.458946228027344) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -291,7 +291,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-12.962113380432129, 4.081948280334473, 58.81169509887695) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -306,7 +306,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-100.17070770263672, 11.267504692077637, 2.872905969619751) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -321,7 +321,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-100.142822265625, 11.27205753326416, -7.70648193359375) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -336,7 +336,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-88.9527359008789, 11.25647258758545, 2.5094211101531982) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -351,7 +351,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-87.3595199584961, 11.25549602508545, -7.183734893798828) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -366,7 +366,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-77.02223205566406, 9.470649719238281, 3.15394926071167) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -381,7 +381,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-75.9155044555664, 8.584266662597656, -7.016294002532959) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -396,7 +396,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-64.74037170410156, 4.093013286590576, 3.4612720012664795) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -411,7 +411,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-64.6746597290039, 4.087775707244873, -7.162768363952637) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -426,7 +426,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-50.804386138916016, 4.087871074676514, 2.980201244354248) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -441,7 +441,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-48.78343200683594, 4.078750133514404, -6.735441207885742) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -456,7 +456,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-47.90641403198242, 4.07698392868042, -16.787900924682617) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -471,7 +471,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-46.590450286865234, 4.0776143074035645, -26.98356819152832) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -486,7 +486,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-64.32838439941406, 4.082714080810547, -17.474180221557617) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -501,7 +501,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-63.949459075927734, 4.088520526885986, -27.418283462524414) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -516,7 +516,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-76.05967712402344, 4.0940327644348145, -18.199934005737305) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -531,7 +531,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-76.35447692871094, 4.076953887939453, -28.284353256225586) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -546,7 +546,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-76.552490234375, 4.094022274017334, -37.9572639465332) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -561,7 +561,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-63.96718215942383, 4.084837436676025, -38.222660064697266) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -576,7 +576,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-31.565082550048828, 4.080810546875, -27.68486785888672) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -591,7 +591,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(-30.787734985351562, 4.081948280334473, -16.158292770385742) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -606,7 +606,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(8.984808921813965, 11.264557838439941, -112.76416015625) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -621,7 +621,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(7.757046699523926, 11.259157180786133, -103.37320709228516) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -636,7 +636,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(19.256694793701172, 11.257830619812012, -112.75225830078125) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -651,7 +651,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(19.183582305908203, 11.256400108337402, -102.35742950439453) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -666,7 +666,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(8.093873023986816, 8.7849702835083, -92.4213638305664) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -681,7 +681,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(18.769798278808594, 8.73678207397461, -92.40193939208984) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -696,7 +696,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(19.04484748840332, 4.0925798416137695, -82.317626953125) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -711,7 +711,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(6.975103855133057, 4.0939836502075195, -81.82388305664062) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -726,7 +726,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(6.359164237976074, 4.092841625213623, -70.98409271240234) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -741,7 +741,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(19.336929321289062, 4.302119255065918, -71.51982116699219) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -756,7 +756,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(31.44071388244629, 4.311159610748291, -71.89977264404297) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -771,7 +771,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(42.14677047729492, 4.308098793029785, -71.84123229980469) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -786,7 +786,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(30.47404670715332, 4.077451229095459, -81.1266860961914) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -801,7 +801,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(43.26429748535156, 4.086445331573486, -81.48722076416016) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -816,7 +816,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(30.67833137512207, 4.089008331298828, -91.88304901123047) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -831,7 +831,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(44.03327178955078, 4.079500198364258, -92.35247039794922) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -846,7 +846,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(6.9747633934021, 4.0816330909729, -61.37425994873047) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -861,7 +861,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(19.18314552307129, 4.08030366897583, -61.70588302612305) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -876,7 +876,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(31.236635208129883, 4.077556133270264, -61.890140533447266) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -891,7 +891,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(42.87675476074219, 4.077420234680176, -62.01558303833008) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -906,7 +906,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(125.55300903320312, 11.254870414733887, -7.471156597137451) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -921,7 +921,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(114.74624633789062, 11.271848678588867, -6.865269184112549) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -936,7 +936,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(125.5322265625, 11.258320808410645, 4.700507164001465) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -951,7 +951,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(114.51396179199219, 11.258137702941895, 4.533012866973877) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -966,7 +966,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(105.42467498779297, 9.200873374938965, -6.032795429229736) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -981,7 +981,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(105.1875, 8.50851821899414, 3.891035318374634) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -996,7 +996,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(94.9832534790039, 4.07926607131958, -6.652956962585449) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1011,7 +1011,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(95.24811553955078, 4.081202507019043, 4.795590400695801) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1026,7 +1026,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(84.69902801513672, 4.310995578765869, 4.90551233291626) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1041,7 +1041,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(84.19843292236328, 4.080827236175537, -6.817275524139404) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1056,7 +1056,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(84.54108428955078, 4.317544937133789, 14.696772575378418) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1071,7 +1071,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(84.65567016601562, 4.301891326904297, 24.493667602539062) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1086,7 +1086,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(83.69915771484375, 4.313209533691406, 35.50947570800781) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1101,7 +1101,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(73.75773620605469, 4.0774006843566895, -6.322125434875488) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1116,7 +1116,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(73.90563201904297, 4.080514907836914, 5.172652721405029) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1131,7 +1131,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(74.49647521972656, 4.080212116241455, 15.1427640914917) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1146,7 +1146,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(74.27713012695312, 4.078838348388672, 24.573299407958984) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1161,7 +1161,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(73.24674987792969, 4.306519508361816, 35.50539779663086) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1176,7 +1176,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(96.75824737548828, 4.094027519226074, 15.835583686828613) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
@@ -1191,7 +1191,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(96.68451690673828, 4.092842102050781, 25.609270095825195) * CFrame.Angles(-0, 0, -0),
     [3] = workspace.Towers.ScaleDummy
 }
