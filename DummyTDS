@@ -127,7 +127,7 @@ local args = {
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 
 local args = {
-    [1] = "Titan BlockDummy 5.0",
+    [1] = "Titan BlockDummy: UTJD 5.0",
     [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
     [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
     [5] = 0
