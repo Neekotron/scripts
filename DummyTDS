@@ -164,11 +164,6 @@ game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(a
 
 ]])
 
-AddContent("TextButton", "x20", [[
-local args = {
-    [1] = 20
-}
-
-game:GetService("ReplicatedStorage").Events.RequestSpeedVote:FireServer(unpack(args))
-
+AddContent("TextButton", "instantfarm", [[
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neekotron/scripts/refs/heads/main/InstantfarmDummyTDS"))()
 ]])
