@@ -1,0 +1,835 @@
+local player = game.Players.LocalPlayer
+
+local loadingGui = Instance.new("ScreenGui")
+
+loadingGui.Name = "LoadingScreen"
+
+loadingGui.ResetOnSpawn = false
+
+loadingGui.Parent = player:WaitForChild("PlayerGui")
+
+local loadingBg = Instance.new("Frame")
+
+loadingBg.Size = UDim2.new(1, 0, 1, 0)
+
+loadingBg.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+
+loadingBg.BorderSizePixel = 0
+
+loadingBg.Parent = loadingGui
+
+local gradient = Instance.new("UIGradient")
+
+gradient.Color = ColorSequence.new{
+
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(10, 10, 10)),
+
+    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(5, 5, 5)),
+
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(15, 15, 15))
+
+}
+
+gradient.Rotation = 45
+
+gradient.Parent = loadingBg
+
+local topBar = Instance.new("Frame")
+
+topBar.Size = UDim2.new(1, 0, 0, 2)
+
+topBar.Position = UDim2.new(0, 0, 0, 0)
+
+topBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+topBar.BorderSizePixel = 0
+
+topBar.BackgroundTransparency = 0.9
+
+topBar.Parent = loadingBg
+
+local logoText = Instance.new("TextLabel")
+
+logoText.Size = UDim2.new(0, 500, 0, 100)
+
+logoText.Position = UDim2.new(0.5, -250, 0.5, -120)
+
+logoText.BackgroundTransparency = 1
+
+logoText.Text = "ivanScripts"
+
+logoText.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+logoText.Font = Enum.Font.GothamBold
+
+logoText.TextSize = 58
+
+logoText.TextTransparency = 1
+
+logoText.Parent = loadingBg
+
+local logoStroke = Instance.new("UIStroke")
+
+logoStroke.Color = Color3.fromRGB(255, 255, 255)
+
+logoStroke.Thickness = 0
+
+logoStroke.Transparency = 1
+
+logoStroke.Parent = logoText
+
+local subText = Instance.new("TextLabel")
+
+subText.Size = UDim2.new(0, 500, 0, 35)
+
+subText.Position = UDim2.new(0.5, -250, 0.5, -15)
+
+subText.BackgroundTransparency = 1
+
+subText.Text = "HITBOX EXTENDER"
+
+subText.TextColor3 = Color3.fromRGB(180, 180, 180)
+
+subText.Font = Enum.Font.GothamMedium
+
+subText.TextSize = 16
+
+subText.TextTransparency = 1
+
+subText.Parent = loadingBg
+
+local versionText = Instance.new("TextLabel")
+
+versionText.Size = UDim2.new(0, 500, 0, 25)
+
+versionText.Position = UDim2.new(0.5, -250, 0.5, 15)
+
+versionText.BackgroundTransparency = 1
+
+versionText.Text = "v2.0 Premium Edition"
+
+versionText.TextColor3 = Color3.fromRGB(120, 120, 120)
+
+versionText.Font = Enum.Font.Gotham
+
+versionText.TextSize = 13
+
+versionText.TextTransparency = 1
+
+versionText.Parent = loadingBg
+
+local barOuter = Instance.new("Frame")
+
+barOuter.Size = UDim2.new(0, 402, 0, 8)
+
+barOuter.Position = UDim2.new(0.5, -201, 0.5, 70)
+
+barOuter.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+
+barOuter.BorderSizePixel = 0
+
+barOuter.Parent = loadingBg
+
+local barOuterCorner = Instance.new("UICorner")
+
+barOuterCorner.CornerRadius = UDim.new(0, 4)
+
+barOuterCorner.Parent = barOuter
+
+local barOuterStroke = Instance.new("UIStroke")
+
+barOuterStroke.Color = Color3.fromRGB(60, 60, 60)
+
+barOuterStroke.Thickness = 1
+
+barOuterStroke.Parent = barOuter
+
+local barContainer = Instance.new("Frame")
+
+barContainer.Size = UDim2.new(0, 400, 0, 6)
+
+barContainer.Position = UDim2.new(0, 1, 0, 1)
+
+barContainer.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+
+barContainer.BorderSizePixel = 0
+
+barContainer.Parent = barOuter
+
+local barCorner = Instance.new("UICorner")
+
+barCorner.CornerRadius = UDim.new(0, 3)
+
+barCorner.Parent = barContainer
+
+local loadingBar = Instance.new("Frame")
+
+loadingBar.Size = UDim2.new(0, 0, 1, 0)
+
+loadingBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+loadingBar.BorderSizePixel = 0
+
+loadingBar.Parent = barContainer
+
+local loadingCorner = Instance.new("UICorner")
+
+loadingCorner.CornerRadius = UDim.new(0, 3)
+
+loadingCorner.Parent = loadingBar
+
+local barGradient = Instance.new("UIGradient")
+
+barGradient.Color = ColorSequence.new{
+
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(200, 200, 200)),
+
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+
+}
+
+barGradient.Parent = loadingBar
+
+local percentText = Instance.new("TextLabel")
+
+percentText.Size = UDim2.new(0, 400, 0, 30)
+
+percentText.Position = UDim2.new(0.5, -200, 0.5, 90)
+
+percentText.BackgroundTransparency = 1
+
+percentText.Text = "0%"
+
+percentText.TextColor3 = Color3.fromRGB(220, 220, 220)
+
+percentText.Font = Enum.Font.GothamBold
+
+percentText.TextSize = 15
+
+percentText.TextTransparency = 1
+
+percentText.Parent = loadingBg
+
+local statusText = Instance.new("TextLabel")
+
+statusText.Size = UDim2.new(0, 400, 0, 25)
+
+statusText.Position = UDim2.new(0.5, -200, 0.5, 115)
+
+statusText.BackgroundTransparency = 1
+
+statusText.Text = "Inicializando..."
+
+statusText.TextColor3 = Color3.fromRGB(150, 150, 150)
+
+statusText.Font = Enum.Font.Gotham
+
+statusText.TextSize = 12
+
+statusText.TextTransparency = 1
+
+statusText.Parent = loadingBg
+
+local footerText = Instance.new("TextLabel")
+
+footerText.Size = UDim2.new(1, 0, 0, 30)
+
+footerText.Position = UDim2.new(0, 0, 1, -40)
+
+footerText.BackgroundTransparency = 1
+
+footerText.Text = "Powered by ivanScripts © 2024"
+
+footerText.TextColor3 = Color3.fromRGB(80, 80, 80)
+
+footerText.Font = Enum.Font.Gotham
+
+footerText.TextSize = 11
+
+footerText.TextTransparency = 1
+
+footerText.Parent = loadingBg
+
+local function animateLoading()
+
+    logoText:TweenPosition(UDim2.new(0.5, -250, 0.5, -120), "Out", "Quad", 1, true)
+
+    for i = 1, 20 do
+
+        logoText.TextTransparency = 1 - (i / 20)
+
+        logoStroke.Transparency = 1 - (i / 40)
+
+        logoStroke.Thickness = i / 4
+
+        wait(0.04)
+
+    end
+
+    
+
+    wait(0.3)
+
+    
+
+    for i = 1, 15 do
+
+        subText.TextTransparency = 1 - (i / 15)
+
+        versionText.TextTransparency = 1 - (i / 15)
+
+        percentText.TextTransparency = 1 - (i / 15)
+
+        statusText.TextTransparency = 1 - (i / 15)
+
+        footerText.TextTransparency = 1 - (i / 15)
+
+        wait(0.04)
+
+    end
+
+    
+
+    wait(0.5)
+
+    
+
+    local states = {
+
+        {percent = 15, text = "Cargando módulos..."},
+
+        {percent = 35, text = "Inicializando sistemas..."},
+
+        {percent = 55, text = "Configurando hitbox..."},
+
+        {percent = 75, text = "Aplicando ajustes..."},
+
+        {percent = 90, text = "Finalizando..."},
+
+        {percent = 100, text = "Completado!"}
+
+    }
+
+    
+
+    local currentPercent = 0
+
+    for _, state in ipairs(states) do
+
+        while currentPercent < state.percent do
+
+            currentPercent = currentPercent + 1
+
+            loadingBar:TweenSize(UDim2.new(currentPercent/100, 0, 1, 0), "Out", "Sine", 0.02, true)
+
+            percentText.Text = currentPercent .. "%"
+
+            wait(0.025)
+
+        end
+
+        statusText.Text = state.text
+
+        wait(0.4)
+
+    end
+
+    
+
+    wait(0.6)
+
+    
+
+    for i = 1, 5 do
+
+        logoStroke.Thickness = 5 + i
+
+        logoStroke.Transparency = 0.5
+
+        wait(0.1)
+
+        logoStroke.Transparency = 0.8
+
+        wait(0.1)
+
+    end
+
+    
+
+    wait(0.3)
+
+    
+
+    for i = 1, 15 do
+
+        local trans = i / 15
+
+        logoText.TextTransparency = trans
+
+        subText.TextTransparency = trans
+
+        versionText.TextTransparency = trans
+
+        percentText.TextTransparency = trans
+
+        statusText.TextTransparency = trans
+
+        footerText.TextTransparency = trans
+
+        barOuter.BackgroundTransparency = trans
+
+        loadingBg.BackgroundTransparency = trans
+
+        wait(0.03)
+
+    end
+
+    
+
+    loadingGui:Destroy()
+
+end
+
+spawn(animateLoading)
+
+wait(8)
+
+local screenGui = Instance.new("ScreenGui")
+
+screenGui.Name = "HitboxGUI"
+
+screenGui.ResetOnSpawn = false
+
+screenGui.Parent = player:WaitForChild("PlayerGui")
+
+local toggleButton = Instance.new("TextButton")
+
+toggleButton.Size = UDim2.new(0, 35, 0, 35)
+
+toggleButton.Position = UDim2.new(0, 10, 0, 120)
+
+toggleButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+
+toggleButton.BorderSizePixel = 0
+
+toggleButton.Text = "H"
+
+toggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+toggleButton.Font = Enum.Font.GothamBold
+
+toggleButton.TextSize = 16
+
+toggleButton.Parent = screenGui
+
+local toggleCorner = Instance.new("UICorner")
+
+toggleCorner.CornerRadius = UDim.new(0, 8)
+
+toggleCorner.Parent = toggleButton
+
+local toggleStroke = Instance.new("UIStroke")
+
+toggleStroke.Color = Color3.fromRGB(60, 60, 60)
+
+toggleStroke.Thickness = 1
+
+toggleStroke.Parent = toggleButton
+
+local mainFrame = Instance.new("Frame")
+
+mainFrame.Size = UDim2.new(0, 260, 0, 180)
+
+mainFrame.Position = UDim2.new(0.5, -130, 0.5, -90)
+
+mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+
+mainFrame.BorderSizePixel = 0
+
+mainFrame.Visible = false
+
+mainFrame.Parent = screenGui
+
+local corner = Instance.new("UICorner")
+
+corner.CornerRadius = UDim.new(0, 12)
+
+corner.Parent = mainFrame
+
+local frameStroke = Instance.new("UIStroke")
+
+frameStroke.Color = Color3.fromRGB(40, 40, 40)
+
+frameStroke.Thickness = 1
+
+frameStroke.Parent = mainFrame
+
+local title = Instance.new("TextLabel")
+
+title.Size = UDim2.new(1, 0, 0, 35)
+
+title.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+
+title.BorderSizePixel = 0
+
+title.Text = "HITBOX"
+
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+title.Font = Enum.Font.GothamBold
+
+title.TextSize = 15
+
+title.Parent = mainFrame
+
+local titleCorner = Instance.new("UICorner")
+
+titleCorner.CornerRadius = UDim.new(0, 12)
+
+titleCorner.Parent = title
+
+local sizeLabel = Instance.new("TextLabel")
+
+sizeLabel.Size = UDim2.new(1, -20, 0, 20)
+
+sizeLabel.Position = UDim2.new(0, 10, 0, 50)
+
+sizeLabel.BackgroundTransparency = 1
+
+sizeLabel.Text = "Tamaño Hitbox"
+
+sizeLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
+
+sizeLabel.Font = Enum.Font.Gotham
+
+sizeLabel.TextSize = 13
+
+sizeLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+sizeLabel.Parent = mainFrame
+
+local sizeInput = Instance.new("TextBox")
+
+sizeInput.Size = UDim2.new(1, -20, 0, 35)
+
+sizeInput.Position = UDim2.new(0, 10, 0, 72)
+
+sizeInput.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+
+sizeInput.BorderSizePixel = 0
+
+sizeInput.Text = "20"
+
+sizeInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+sizeInput.Font = Enum.Font.GothamMedium
+
+sizeInput.TextSize = 15
+
+sizeInput.PlaceholderText = "Ej: 20"
+
+sizeInput.PlaceholderColor3 = Color3.fromRGB(100, 100, 100)
+
+sizeInput.Parent = mainFrame
+
+local sizeCorner = Instance.new("UICorner")
+
+sizeCorner.CornerRadius = UDim.new(0, 8)
+
+sizeCorner.Parent = sizeInput
+
+local sizeStroke = Instance.new("UIStroke")
+
+sizeStroke.Color = Color3.fromRGB(45, 45, 45)
+
+sizeStroke.Thickness = 1
+
+sizeStroke.Parent = sizeInput
+
+local toggleViewBtn = Instance.new("TextButton")
+
+toggleViewBtn.Size = UDim2.new(0, 115, 0, 32)
+
+toggleViewBtn.Position = UDim2.new(0, 10, 0, 120)
+
+toggleViewBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+
+toggleViewBtn.BorderSizePixel = 0
+
+toggleViewBtn.Text = "Mostrar"
+
+toggleViewBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+toggleViewBtn.Font = Enum.Font.GothamBold
+
+toggleViewBtn.TextSize = 13
+
+toggleViewBtn.Parent = mainFrame
+
+local toggleViewCorner = Instance.new("UICorner")
+
+toggleViewCorner.CornerRadius = UDim.new(0, 8)
+
+toggleViewCorner.Parent = toggleViewBtn
+
+local toggleViewStroke = Instance.new("UIStroke")
+
+toggleViewStroke.Color = Color3.fromRGB(60, 60, 60)
+
+toggleViewStroke.Thickness = 1
+
+toggleViewStroke.Parent = toggleViewBtn
+
+local applyBtn = Instance.new("TextButton")
+
+applyBtn.Size = UDim2.new(0, 115, 0, 32)
+
+applyBtn.Position = UDim2.new(0, 135, 0, 120)
+
+applyBtn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+
+applyBtn.BorderSizePixel = 0
+
+applyBtn.Text = "Aplicar"
+
+applyBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+applyBtn.Font = Enum.Font.GothamBold
+
+applyBtn.TextSize = 13
+
+applyBtn.Parent = mainFrame
+
+local applyCorner = Instance.new("UICorner")
+
+applyCorner.CornerRadius = UDim.new(0, 8)
+
+applyCorner.Parent = applyBtn
+
+local applyStroke = Instance.new("UIStroke")
+
+applyStroke.Color = Color3.fromRGB(80, 80, 80)
+
+applyStroke.Thickness = 1
+
+applyStroke.Parent = applyBtn
+
+local showHitbox = false
+
+local currentSize = 20
+
+local originalSizes = {}
+
+local function clamp(value, min, max)
+
+    return math.max(min, math.min(max, value))
+
+end
+
+local function applyHitbox()
+
+    for _, plr in pairs(game.Players:GetPlayers()) do
+
+        if plr ~= player then
+
+            local char = plr.Character
+
+            if char then
+
+                local hrp = char:FindFirstChild("HumanoidRootPart")
+
+                if hrp then
+
+                    if not originalSizes[plr.UserId] then
+
+                        originalSizes[plr.UserId] = hrp.Size
+
+                    end
+
+                    
+
+                    hrp.Size = Vector3.new(currentSize, currentSize, currentSize)
+
+                    hrp.CanCollide = false
+
+                    
+
+                    if showHitbox then
+
+                        hrp.Transparency = 0.95
+
+                        hrp.BrickColor = BrickColor.new("White")
+
+                        hrp.Material = Enum.Material.Neon
+
+                    else
+
+                        hrp.Transparency = 1
+
+                        hrp.Material = Enum.Material.Plastic
+
+                    end
+
+                end
+
+            end
+
+        end
+
+    end
+
+end
+
+toggleButton.MouseButton1Click:Connect(function()
+
+    mainFrame.Visible = not mainFrame.Visible
+
+    if mainFrame.Visible then
+
+        toggleButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+
+        mainFrame:TweenSize(UDim2.new(0, 260, 0, 180), "Out", "Quad", 0.2, true)
+
+    else
+
+        toggleButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+
+    end
+
+end)
+
+sizeInput.FocusLost:Connect(function()
+
+    local value = tonumber(sizeInput.Text) or 20
+
+    currentSize = clamp(value, 1, 150)
+
+    sizeInput.Text = tostring(currentSize)
+
+end)
+
+toggleViewBtn.MouseButton1Click:Connect(function()
+
+    showHitbox = not showHitbox
+
+    if showHitbox then
+
+        toggleViewBtn.Text = "Ocultar"
+
+        toggleViewBtn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+
+        toggleViewStroke.Color = Color3.fromRGB(100, 100, 100)
+
+    else
+
+        toggleViewBtn.Text = "Mostrar"
+
+        toggleViewBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+
+        toggleViewStroke.Color = Color3.fromRGB(60, 60, 60)
+
+    end
+
+    applyHitbox()
+
+end)
+
+applyBtn.MouseButton1Click:Connect(function()
+
+    applyHitbox()
+
+    applyBtn.Text = "Aplicado!"
+
+    applyBtn.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+    applyStroke.Color = Color3.fromRGB(120, 120, 120)
+
+    wait(1)
+
+    applyBtn.Text = "Aplicar"
+
+    applyBtn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+
+    applyStroke.Color = Color3.fromRGB(80, 80, 80)
+
+end)
+
+game.Players.PlayerAdded:Connect(function(plr)
+
+    plr.CharacterAdded:Connect(function()
+
+        wait(0.5)
+
+        applyHitbox()
+
+    end)
+
+end)
+
+for _, plr in pairs(game.Players:GetPlayers()) do
+
+    plr.CharacterAdded:Connect(function()
+
+        wait(0.5)
+
+        applyHitbox()
+
+    end)
+
+end
+
+local dragging = false
+
+local dragInput
+
+local dragStart
+
+local startPos
+
+title.InputBegan:Connect(function(input)
+
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+
+        dragging = true
+
+        dragStart = input.Position
+
+        startPos = mainFrame.Position
+
+        
+
+        input.Changed:Connect(function()
+
+            if input.UserInputState == Enum.UserInputState.End then
+
+                dragging = false
+
+            end
+
+        end)
+
+    end
+
+end)
+
+title.InputChanged:Connect(function(input)
+
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+
+        dragInput = input
+
+    end
+
+end)
+
+game:GetService("UserInputService").InputChanged:Connect(function(input)
+
+    if input == dragInput and dragging then
+
+        local delta = input.Position - dragStart
+
+        mainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+
+    end
+
+end)
