@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Neekotron/scripts/refs/heads/main/Adonis", true))()
 --[[
     SimpleSpy v2.2 SOURCE
 
