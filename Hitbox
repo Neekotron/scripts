@@ -198,7 +198,7 @@ percentText.Position = UDim2.new(0.5, -200, 0.5, 90)
 
 percentText.BackgroundTransparency = 1
 
-percentText.Text = "0%"
+percentText.Text = "100%"
 
 percentText.TextColor3 = Color3.fromRGB(220, 220, 220)
 
@@ -238,7 +238,7 @@ footerText.Position = UDim2.new(0, 0, 1, -40)
 
 footerText.BackgroundTransparency = 1
 
-footerText.Text = "Powered by ivanScripts © 2024"
+footerText.Text = "hallo"
 
 footerText.TextColor3 = Color3.fromRGB(80, 80, 80)
 
@@ -312,7 +312,7 @@ local function animateLoading()
 
     
 
-    local currentPercent = 0
+    local currentPercent = 100
 
     for _, state in ipairs(states) do
 
@@ -392,7 +392,7 @@ end
 
 spawn(animateLoading)
 
-wait(8)
+wait(1)
 
 local screenGui = Instance.new("ScreenGui")
 
