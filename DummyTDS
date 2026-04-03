@@ -61,22 +61,15 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
 
 ]])
  
-AddContent("TextButton", "MortarMx", [[
+AddContent("TextButton", "INF MONEY", [[
 local args = {
-    [1] = "ScaleDummy",
-    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
+	workspace:WaitForChild("Towers"):WaitForChild("Titan ScaleDummy 5.0"),
+	5,
+	workspace:WaitForChild("Towers"):WaitForChild("Titan ScaleDummy 5.0"):WaitForChild("Config"):WaitForChild("Titan Scale"),
+	-1000000000,
+	game:GetService("Players"):WaitForChild("Neeko_SF")
 }
-
-game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
-
-local args = {
-    [1] = "Mortar ScaleDummy 5.0",
-    [2] = CFrame.new(game.Players.LocalPlayer.Character.Torso.Position),
-    [3] = workspace.Towers:FindFirstChild("ScaleDummy"),
-    [5] = 0
-}
-
-game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Rage"):FireServer(unpack(args))
 
 ]])
  
