@@ -46,7 +46,7 @@ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(ar
  while true do
 local args = {
 	workspace:WaitForChild("Towers"):WaitForChild("Titan ScaleDummy 5.0"),
-	5,
+	-1,
 	workspace:WaitForChild("Towers"):WaitForChild("Titan ScaleDummy 5.0"):WaitForChild("Config"):WaitForChild("Titan Scale"),
 	0,
 	game:GetService("Players"):WaitForChild("Neeko_SF")
@@ -60,7 +60,7 @@ end
 AddContent("TextButton", "INF MONEY", [[
 local args = {
 	workspace:WaitForChild("Towers"):WaitForChild("Titan ScaleDummy 5.0"),
-	5,
+	-1,
 	workspace:WaitForChild("Towers"):WaitForChild("Titan ScaleDummy 5.0"):WaitForChild("Config"):WaitForChild("Titan Scale"),
 	-1000000000,
 	game:GetService("Players"):WaitForChild("Neeko_SF")
