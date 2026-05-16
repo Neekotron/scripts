@@ -1,0 +1,87 @@
+---Ghost Gui UI Library
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/UI-Library/refs/heads/main/Ghost%20Gui'))()
+game.CoreGui.GhostGui.MainFrame.Title.Text = "CursedS"
+---
+ 
+ 
+ AddContent("TextButton", "kill all", [[
+while true do
+local args = {
+    102,
+    "Atk",
+    workspace:WaitForChild("Entity"):WaitForChild("1000"):WaitForChild("Torso"),
+    {
+        pierce = true,
+        fire = true
+    }
+}
+game:GetService("Players").LocalPlayer.Character:WaitForChild("NetMessage"):WaitForChild("TrigerSkill"):FireServer(unpack(args))
+
+local args = {
+    102,
+    "Atk",
+    workspace:WaitForChild("Entity"):WaitForChild("1001"):WaitForChild("Torso"),
+    {
+        pierce = true,
+        fire = true
+    }
+}
+game:GetService("Players").LocalPlayer.Character:WaitForChild("NetMessage"):WaitForChild("TrigerSkill"):FireServer(unpack(args))
+
+local args = {
+    102,
+    "Atk",
+    workspace:WaitForChild("Entity"):WaitForChild("1002"):WaitForChild("Torso"),
+    {
+        pierce = true,
+        fire = true
+    }
+}
+game:GetService("Players").LocalPlayer.Character:WaitForChild("NetMessage"):WaitForChild("TrigerSkill"):FireServer(unpack(args))
+
+local args = {
+    102,
+    "Atk",
+    workspace:WaitForChild("Entity"):WaitForChild("1003"):WaitForChild("Torso"),
+    {
+        pierce = true,
+        fire = true
+    }
+}
+game:GetService("Players").LocalPlayer.Character:WaitForChild("NetMessage"):WaitForChild("TrigerSkill"):FireServer(unpack(args))
+
+local args = {
+    102,
+    "Atk",
+    workspace:WaitForChild("Entity"):WaitForChild("1004"):WaitForChild("Torso"),
+    {
+        pierce = true,
+        fire = true
+    }
+}
+game:GetService("Players").LocalPlayer.Character:WaitForChild("NetMessage"):WaitForChild("TrigerSkill"):FireServer(unpack(args))
+
+local args = {
+    102,
+    "Atk",
+    workspace:WaitForChild("Entity"):WaitForChild("1005"):WaitForChild("Torso"),
+    {
+        pierce = true,
+        fire = true
+    }
+}
+game:GetService("Players").LocalPlayer.Character:WaitForChild("NetMessage"):WaitForChild("TrigerSkill"):FireServer(unpack(args))
+
+local args = {
+    102,
+    "Atk",
+    workspace:WaitForChild("Entity"):WaitForChild("1006"):WaitForChild("Torso"),
+    {
+        pierce = true,
+        fire = true
+    }
+}
+game:GetService("Players").LocalPlayer.Character:WaitForChild("NetMessage"):WaitForChild("TrigerSkill"):FireServer(unpack(args))
+wait()
+end
+]])
